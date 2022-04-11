@@ -1,0 +1,59 @@
+{% extends 'base.html.twig' %}
+
+
+{% block title %}Radomly{% endblock %}
+
+
+ {% block stylesheets %}
+
+{{ encore_entry_link_tags('home') }} 
+
+  {% endblock %}
+
+{% block body %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/website/style/home.css">
+  <title>Ramdomly</title>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+        <a href="#" class="menu-bar logo">Menu</a>
+    </div> 
+    <nav>
+      <ul class="list-nav">
+        <li>text1</li>
+        <li>text2</li>
+        <li>text3</li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="presentation-container">
+      <div class="img-presentation">
+          
+        
+      </div>
+        
+      <span class="text-presentation">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Eligendi magni id quibusdam.</p>
+      </span> 
+    </div>
+    
+
+  </main>
+  <footer>
+  
+  </footer>
+  
+</body>
+</html>
+
+{% endblock %}
