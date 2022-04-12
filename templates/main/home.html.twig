@@ -12,42 +12,53 @@
 
 {% block body %}
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../assets/website/style/home.css">
-  <title>Ramdomly</title>
-</head>
-<body>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/website/style/home.css">
+    <title>Ramdomly</title>
+  </head>
+  <body>
   <header>
-    <div class="logo-container">
-        <a href="#" class="menu-bar logo">Menu</a>
-    </div> 
-    <nav>
-      <ul class="list-nav">
-        <li>text1</li>
-        <li>text2</li>
-        <li>text3</li>
-      </ul>
+    <nav class="nav-bar">
+      <div class="logo-container">
+        <a href="{{ path('app_main') }}" class="menu-bar logo">Menu</a>
+      </div>
+      <div class="navbar-menu">
+        <a class="navbar-link" href="{{ path('app_main') }}" 
+        target="_blank">text1</a>
+        <a class="navbar-link" href="#">text2</a>
+        <a class="navbar-link" href="#">text3</a>
+      </div>
     </nav>
   </header>
+
   <main>
     <div class="presentation-container">
-      <div class="img-presentation">
+        <div class="img-presentation">
+            
           
+        </div>
+          
+        <span class="text-presentation">
+              <h1>Lorem ipsum dolor sit amet.</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+              Eligendi magni id quibusdam.</p>
+        </span>
         
-      </div>
-        
-      <span class="text-presentation">
-            <h1>Lorem ipsum dolor sit amet.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-            Eligendi magni id quibusdam.</p>
-      </span> 
     </div>
+    <section>
+      <div class="split-section">
+        <p class="paragrapheSplit-section">
+          Lorem ipsum dolor sit amet consectetur.
+        </p>
+        <a href="#" class="btnSplit-section"> Click ici</a>
+      </div>
     
-
+    </section>
+    
   </main>
   <footer>
   
