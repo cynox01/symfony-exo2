@@ -4,18 +4,35 @@
 }
 
 /**************** Navbar***************/
+.logo-container{
+    margin: 20px;
+}
+.logo{
+    font-size: 52px;
+    font-family: 'Lobster', cursive;
+    color: deepskyblue;
+
+}
 .nav-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     height: 100px;
-    background: rgb(132, 219, 248);
+    background-color:  rgb(26, 26, 26);
 }
 .navbar-link{
     text-decoration: none;
     margin: 30px;
+    color: rgb(220, 73, 220);
+    font-size: 1.5rem;
 
+}
+.bnt-singup{
+    color: white;
+    background-color: rgb(220, 73, 220) ;
+    padding: 10px;
+    border-radius: 10px ;
 }
 
 
@@ -34,13 +51,25 @@
     display: flex;
     justify-content: space-evenly;
 }
+.text-presentation h1{
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    
+}
+.text-presentation p{
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
 
 .split-section{
     display: flex;
-    flex-direction: column;
+   justify-content: center;
+   align-items: center;
     width: 100%;
-    height: 180px;
+    height: 400px;
     background: rgb(64, 64, 245);
+    /* overflow: scroll; */
 }
 .paragrapheSplit-section{
     color: white;
@@ -48,6 +77,7 @@
     text-align: center;
     padding: 20px;
 }
+
 .btnSplit-section{
     background: rgb(220, 73, 220);
     border-radius: 10px;
@@ -56,9 +86,125 @@
     font-size: 46px;
     text-decoration: none;
     color: white;
-    padding: 15px;
+    padding: 10px;
     width: 200px;
     height: 50px;
-    white-space: nowrap;
    
+   
+}
+.section-II{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(225, 225, 225) ;
+    
+    
+    
+    
+}
+.text-SectionII h1{
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+}
+.text-SectionII p{
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
+.img-sectionII{
+    width: 600px;
+    height: 500px;
+    margin-top: 100px;
+    background-image: url("../images/3d-flame-speech-bubble-7.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    
+}
+.section-III{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.text-SectionIII{
+    float: right;
+}
+.text-SectionIII h1{
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+}
+.text-SectionIII p{
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
+
+.img-sectionIII{
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+    background-image: url("../images/3d-flame-speech-bubble-5.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+.section-IV{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(225, 225, 225) ;
+}
+.text-SectionIV h1{
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+}
+.text-SectionIV p{
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 200;
+}
+.img-sectionIV{
+    width: 600px;
+    height: 500px;
+    margin-top: 205px;
+    background-image: url("../images/casual.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(26, 26, 26);
+}
+.icon-foot{
+    width: 32px;
+    background-color:  deepskyblue;
+    border-radius: 5px;
+    
+}
+.logo-footer{
+    font-size: 52px;
+    font-family: 'Lobster', cursive;
+    color: deepskyblue;
+    
+}
+.icon-foot:hover{
+    background-color:  deepskyblue;
+    border-radius: 5px;
+    background-color: rgb(220, 73, 220);
+}
+hr{
+    
+    position: relative;
+    top: 190px;
+    color: rgb(220, 73, 220); 
+    width: 80%;
+}
+.footer-hr{
+    display: flex;
+    justify-content: center;
 }
