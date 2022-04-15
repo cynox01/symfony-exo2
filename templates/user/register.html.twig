@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block stylesheets %}
+
+    {{ encore_entry_link_tags('home') }} 
+    
+
+{% endblock %}
+
+
+{% block body %}
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+        
+            <main>
+                <div class="page">
+                    <div class="container">
+                        <div class="left">
+                            <div class="login">Sing in</div>
+                            <div class="eula">By logging in you agree to the ridiculously long terms that you didn't bother to read</div>
+                        </div>
+                        <div class="right">
+                            
+                            <div class="form">
+                                <label for="email">Email</label>
+                                <input type="email" id="email">
+                                <label for="nicknme">Nickname</label>
+                                <input type="nickname" id="nickname">
+                                <label for="password">Password</label>
+                                <input type="password" id="password">
+                                <input type="submit" id="submit" value="Submit">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </main>
+        
+        </body>
+    </html>
+   
+{% endblock %}

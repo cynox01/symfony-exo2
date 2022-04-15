@@ -1,112 +1,88 @@
 {% extends 'base.html.twig' %}
 
 
-{% block title %}Radomly{% endblock %}
+{% block title %}Radomly
+{% endblock %}
 
 
- {% block stylesheets %}
+{% block stylesheets %}
 
-{{ encore_entry_link_tags('home') }} 
+	{{ encore_entry_link_tags('home') }}
 
-  {% endblock %}
+{% endblock %}
 
 {% block body %}
-<!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/website/style/home.css">
-    <title>Ramdomly</title>
-  </head>
-  <body>
-  <header>
-    <nav class="nav-bar">
-      <div class="logo-container">
-        <a href="{{ path('app_main') }}" class="menu-bar logo">Ramdomly</a>
-      </div>
-      <div class="navbar-menu">
-        <a class="navbar-link" href="{{ path('app_main') }}" 
-        target="_blank">Download</a>
-        <a class="navbar-link" href="#">Support</a>
-        <a class="navbar-link bnt-singup" href="#">Sing up</a>
-      </div>
-    </nav>
-  </header>
+	<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link rel="stylesheet" href="../assets/website/style/home.css">
+			<title>Ramdomly</title>
+		</head>
+		<body>
 
-  <main>
-    <div class="presentation-container">
-        <div class="img-presentation">
-            
-          
-        </div>
-          
-        <span class="text-presentation">
-              <h1>Lorem ipsum dolor sit amet.</h1>
-              <br>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-              Eligendi magni id quibusdam.</p>
-        </span>
-        
-    </div>
-    <section>
-      <div class="split-section">
-        <p class="paragrapheSplit-section">
-          Lorem ipsum dolor sit amet consectetur.
-        </p>
-        <a href="#" class="btnSplit-section"> Click ici</a>
-      </div>
-    
-    </section>
-    <section class="section-II">
-      <span class="text-SectionII">
-              <h1>Lorem ipsum dolor sit amet.</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-              Eligendi magni id quibusdam.</p>
-      </span>
-      <div class="img-sectionII"></div>
-      {# <img class="img-sectionII" src="{{ asset('build/image/casual.98.png') }}" alt="acme logo">  #}
-    </section>
-    
-    <section class="section-III">
-       <span class="text-SectionIII">
-              <h1>Lorem ipsum dolor sit amet.</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-              Eligendi magni id quibusdam.</p>
-      </span>
-      <div class="img-sectionIII"></div>
-      
-    </section>
-    
-    <section class="section-IV">
-     <span class="text-SectionIV">
-              <h1>Lorem ipsum dolor sit amet.</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-              Eligendi magni id quibusdam.</p>
-      </span>
-      <div class="img-sectionIV"></div>
-    </section>
-    
-  </main>
-  <footer>
-    <div class="logo-container">
-      <div class="logo-footer">
-        <P>Ramdomly</P>
-      </div>
-      <div class="icons-footer">
-        <img class="icon-foot" src="https://img.icons8.com/dotty/80/000000/twitter.png"/>
-       <img class="icon-foot" src="https://img.icons8.com/carbon-copy/100/000000/instagram-new--v2.png"/>
-        <img class="icon-foot" src="https://img.icons8.com/carbon-copy/100/000000/youtube-play--v2.png"/>
-      </div>
 
-    </div>
-    <div class="footer-hr">
-      <hr>
-    </div>
-  </footer>
-  
-</body>
-</html>
+			<main>
+				<div class="presentation-container">
+					<div class="img-presentation"></div>
+
+					<span class="text-presentation">
+						<h1>Online university for developpers</h1>
+						<br>
+						<p>Ramdomly is a virtual platform where you can learn any programming language,
+							<br>
+							where we offer differents services for your learning</p>
+					</span>
+
+				</div>
+				<section>
+					<div class="split-section">
+						<p class="paragrapheSplit-section">
+							Take advantage of these welcome packs.
+						</p>
+						<p>HTML and CSS intregation </p>
+						<p>Introduction to JavaScript</p>
+						<a href="#" class="btnSplit-section">
+							Click ici</a>
+					</div>
+
+				</section>
+				<section class="section-II">
+					<span class="text-SectionII">
+						<h1>Coaching Support.</h1>
+						<p>You can choose from our list of professionals for each language.</p>
+					</span>
+					<div class="img-sectionII"></div>
+					{# <img class="img-sectionII" src="{{ asset('build/image/casual.98.png') }}" alt="acme logo">  #}
+				</section>
+
+				<section class="section-III">
+					<span class="text-SectionIII">
+						<h1>Lorem ipsum dolor sit amet.</h1>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							<br>
+							Eligendi magni id quibusdam.</p>
+					</span>
+					<div class="img-sectionIII"></div>
+
+				</section>
+
+				<section class="section-IV">
+					<span class="text-SectionIV">
+						<h1>Lorem ipsum dolor sit amet.</h1>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							<br>
+							Eligendi magni id quibusdam.</p>
+					</span>
+					<div class="img-sectionIV"></div>
+				</section>
+
+			</main>
+
+
+		</body>
+	</html>
 
 {% endblock %}
