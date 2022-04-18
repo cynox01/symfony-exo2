@@ -28,4 +28,13 @@ class UserController extends AbstractController
             'title' => 'Register'
         ]);
     }
+    #[Route('/user', name: 'user')]
+    public function user(): Response
+    {
+        
+
+        return $this->render('user/user.html.twig', [
+            'title' => 'User'
+        ]);
+    }
 }
