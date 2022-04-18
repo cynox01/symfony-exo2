@@ -146,9 +146,9 @@
     height: 100vh;
     background-color: rgb(225, 225, 225);
 }
-.text-SectionIII{
-    float: right;
-}
+/* .text-SectionIII{ */
+    
+/* } */
 .text-SectionIII h1{
     font-size: 3rem;
     font-family: 'Kanit', sans-serif;
