@@ -66,12 +66,13 @@
     font-family: 'Kanit', sans-serif;
     
 }
+
 .text-presentation p{
     font-size: 2rem;
     font-family: 'Kanit', sans-serif;
     font-weight: 200;
 }
-
+/*  Banner Publicité */
 .split-section{
     display: flex;
     justify-content: space-around;
@@ -107,7 +108,8 @@
 .packs{
     color: white;
     font-size: 36px;
-}
+} 
+/* Sections */
 .section-II{
     display: flex;
     justify-content: flex-end;
@@ -436,6 +438,50 @@ hr{
       text-decoration: none;
       color: purple;
   }
+
+  /* user-profil */
+
+ .main-user{
+   display: flex;
+ }
+ .container-aside{
+   width: 158px;
+   height: 100vh;
+   background-color: deepskyblue;
+ }
+ article{
+   background-color: white;
+   width: 100%;
+   height: 100%;
+ }
+
+ section{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+ }
+
+ .container-I{
+  width: 300px;
+  height: 250px;
+  background-color: purple;
+ }
+
+ .container-II{
+  width: 300px;
+  height: 250px;
+  background-color: purple;
+ }
+ .container-III{
+   background-color: black;
+   width: 600px;
+   height: 400px;
+ }
+ .containerIII-header{
+   background-color: deepskyblue;
+   width: 100%;
+   height: 100px;
+ }
  
   
  
