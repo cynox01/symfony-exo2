@@ -1,7 +1,7 @@
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 /**************** Navbar***************/
@@ -9,191 +9,188 @@
     margin: 20px;
 }
 .logo{
-    font-size: 52px;
-    font-family: 'Lobster', cursive;
-    color: deepskyblue;
-    text-decoration: none;
+  font-size: 52px;
+  font-family: 'Lobster', cursive;
+  color: deepskyblue;
+  text-decoration: none;
 
 }
 
 .nav-bar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 100px;
-    background-color:  rgb(26, 26, 26);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color:  rgb(26, 26, 26);
 }
 .navbar-link{
-    text-decoration: none;
-    margin: 30px;
-    color: rgb(220, 73, 220);
-    font-size: 1.5rem;
+  text-decoration: none;
+  margin: 30px;
+  color: rgb(220, 73, 220);
+  font-size: 1.5rem;
 
 }
 .bnt-singup{
-    color: white;
-    background-color: rgb(220, 73, 220) ;
-    padding: 10px;
-    border-radius: 10px ;
+  color: white;
+  background-color: rgb(220, 73, 220) ;
+  padding: 10px;
+  border-radius: 10px ;
 }
 
 
 /********* Presentation-main ****************/
 
 .img-presentation{
-    background-image: url("../images/casual-life-3d-young-man-in-orange-headphones-sitting-at-green-table-and-using-computer.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-    height: 500px;
-    margin: 30px;
+  background-image: url("../images/casual-life-3d-young-man-in-orange-headphones-sitting-at-green-table-and-using-computer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+  margin: 30px;
 
 }
 .presentation-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  
 }
 
 
 .text-presentation h1{
     
-    font-size: 3rem;
-    font-family: 'Kanit', sans-serif;
+  font-size: 3rem;
+  font-family: 'Kanit', sans-serif;
     
 }
 
 .text-presentation p{
-    font-size: 2rem;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 200;
+  font-size: 2rem;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
 }
 /*  Banner Publicité */
 .split-section{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 400px;
-    background: rgb(64, 64, 245);
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  background: rgb(64, 64, 245);
     
 }
 .paragrapheSplit-section{
-    color: white;
-    font-size: 56px;
-    text-align: center;
-    padding: 20px;
+  color: white;
+  font-size: 56px;
+  text-align: center;
+  padding: 20px;
 }
 
 .btnSplit-section{
-    background: rgb(220, 73, 220);
-    border-radius: 10px;
-    border: 2px solid rgb(220, 73, 220);
-    text-align: center;
-    white-space: nowrap;
-    font-size: 36px;
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-    width: 200px;
-    height: 50px;
+  background: rgb(220, 73, 220);
+  border-radius: 10px;
+  border: 2px solid rgb(220, 73, 220);
+  text-align: center;
+  white-space: nowrap;
+  font-size: 36px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  width: 200px;
+  height: 50px;
    
    
 }
 .packs{
-    color: white;
-    font-size: 36px;
+  color: white;
+  font-size: 36px;
 } 
 /* Sections */
 .section-II{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: white;
-    padding: 40px;
-    
-    
-    
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  padding: 40px;
     
 }
-.text-SectionII h1{
-    font-size: 3rem;
-    font-family: 'Kanit', sans-serif;
+.text-SectionII h2{
+  font-size: 3rem;
+  font-family: 'Kanit', sans-serif;
 }
 .text-SectionII p{
-    font-size: 2rem;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 200;
+  font-size: 2rem;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
 }
 .img-sectionII{
-    width: 600px;
-    height: 500px;
-    margin-top: 100px;
-    background-image: url("../images/3d-flame-speech-bubble-7.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-    
+width: 600px;
+height: 500px;
+  margin-top: 100px;
+  background-image: url("../images/3d-flame-speech-bubble-7.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+  
 }
 .section-III{
-    display: flex;
-    align-items: center;
-    padding: 40px;
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(225, 225, 225);
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(225, 225, 225);
 }
 
-.text-SectionIII h1{
-    font-size: 3rem;
-    font-family: 'Kanit', sans-serif;
+.text-SectionIII h2{
+  font-size: 3rem;
+  font-family: 'Kanit', sans-serif;
 }
 .text-SectionIII p{
-    font-size: 2rem;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 200;
+  font-size: 2rem;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
 }
 
 .img-sectionIII{
-    width: 600px;
-    height: 500px;
-    margin-top: 50px;
-    background-image: url("../images/3d-flame-speech-bubble-5.png");
-    background-repeat: no-repeat;
-    background-size: contain; 
+width: 600px;
+height: 500px;
+margin-top: 50px;
+background-image: url("../images/3d-flame-speech-bubble-5.png");
+background-repeat: no-repeat;
+background-size: contain; 
 }
 .section-IV{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: white ;
-    padding: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: white ;
+  padding: 40px;
 }
-.text-SectionIV h1{
-    font-size: 3rem;
-    font-family: 'Kanit', sans-serif;
+.text-SectionIV h3{
+  font-size: 3rem;
+  font-family: 'Kanit', sans-serif;
 }
 .text-SectionIV p{
-    font-size: 2rem;
-    font-family: 'Kanit', sans-serif;
-    font-weight: 200;
+  font-size: 2rem;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 200;
 }
 .img-sectionIV{
-    width: 600px;
-    height: 500px;
-    
-    background-image: url("../images/casual.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+  width: 600px;
+  height: 500px;
+  
+  background-image: url("../images/casual.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 
@@ -242,246 +239,201 @@ hr{
 }
 
 
-/******* form register ****/
+/******* form login ****/
 
 
 .page {
-    background: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-  }
-  @media (max-width: 767px) {
-    .page {
-      height: auto;
-      margin-bottom: 20px;
-      padding-bottom: 20px;
-    }
-  }
-  .container {
-    display: flex;
-    height: 320px;
-    margin: 0 auto;
-    width: 640px;
-  }
-  .container-register{
-    display: flex;
-    height: 320px;
-    margin: 0 auto;
-    width: 640px;
-  }
-  @media (max-width: 767px) {
-    .container {
-      flex-direction: column;
-      height: 630px;
-      width: 320px;
-    }
-    .container-register{
-      flex-direction: column;
-      height: 630px;
-      width: 320px;
-    }
-  }
-
-  .left {
-    background: deepskyblue;
-    height: calc(100% - 40px);
-    top: 20px;
-    position: relative;
-    width: 50%;
-  }
-  .left-register {
-    background: deepskyblue;
-    height: calc(100% - 40px);
-    top: 20px;
-    position: relative;
-    width: 50%;
-  }
-  @media (max-width: 767px) {
-    .left {
-      height: 100%;
-      left: 20px;
-      width: calc(100% - 40px);
-      max-height: 270px;
-    }
-    .left-register{
-        height: 100%;
-      left: 20px;
-      width: calc(100% - 40px);
-      max-height: 270px;
-    }
-  }
-  .login {
-    font-size: 50px;
-    font-weight: 900;
-    margin: 50px 40px 40px;
-  }
-  .login-register {
-    font-size: 50px;
-    font-weight: 900;
-    margin: 50px 40px 40px;
-  }
-  .eula {
-    color: white;
-    font-size: 14px;
-    line-height: 1.5;
-    margin: 40px;
-  }
-  .eula-register {
-    color: white;
-    font-size: 14px;
-    line-height: 1.5;
-    margin: 40px;
-  }
-  .right {
-    background: rgb(26, 26, 26);
-    box-shadow: 0px 0px 40px 16px rgba(0,0,0,0.22);
-    color: white;
-    position: relative;
-    width: 50%;
-  }
-  .right-register {
-    background: rgb(26, 26, 26);
-    box-shadow: 0px 0px 40px 16px rgba(0,0,0,0.22);
-    color: white;
-    position: relative;
-    width: 50%;
-  }
-  @media (max-width: 767px) {
-    .right {
-      flex-shrink: 0;
-      height: 100%;
-      width: 100%;
-      max-height: 350px;
-    }
-    .right-register{
-        flex-shrink: 0;
-        height: 100%;
-        width: 100%;
-        max-height: 350px;
-    }
-  }
+  background: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
   
-  .form {
-    margin: 40px;
-    position: absolute;
-  }
-  .form-register {
-    margin: 40px;
-    position: absolute;
-  }
-  label {
-    color:  #c2c2c5;
-    display: block;
-    font-size: 14px;
-    height: 16px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-  }
-
-  input {
-    background: transparent;
-    border: 0;
-    
-    color: #f2f2f2;
-    font-size: 20px;
-    height: 30px;
-    line-height: 30px;
-    outline: none !important;
-    width: 100%;
-  }
+.container {
+  display: flex;
+  height: 320px;
+  margin: 0 auto;
+  width: 640px;
+}
   
-  input:hover{
-      background: purple;
-  }
+
+.left {
+  background: deepskyblue;
+  height: calc(100% - 40px);
+  top: 20px;
+  position: relative;
+  width: 50%;
+}
+
+ 
+.login {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 50px 40px 40px;
+}
+  
+.eula {
+  color: white;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 40px;
+}
+ 
+.right {
+  background: rgb(26, 26, 26);
+  box-shadow: 0px 0px 40px 16px rgba(0,0,0,0.22);
+  color: white;
+  position: relative;
+  width: 50%;
+}
+  
  
   
+.form {
+  margin: 40px;
+  position: absolute;
+}
   
+label {
+  color:  #c2c2c5;
+  display: block;
+  font-size: 14px;
+  height: 16px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+input {
+  background: transparent;
+  border: 0;
+  color: #f2f2f2;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  outline: none !important;
+  width: 100%;
+}
   
-  #submit {
-    position: relative;
-    
-    
-    color: #707075;
-    
-    
-    
-    cursor: pointer;
-    user-select: none;
-  }
-  #submit-register {
-    position: relative;
-    
-    
-    color: #707075;
-    
-    
-    
-    cursor: pointer;
-    user-select: none;
-  }
-  #submit:hover{
-    color: white;
-    text-transform: uppercase;
-  }
-  #submit-register:hover{
-    color: white;
-    text-transform: uppercase;
-  }
-  .text-goregister{
-      margin-top: 20px;
+input:hover{
+  background: purple;
+}
+ 
+#submit {
+  position: relative;
+  color: #707075;
+  cursor: pointer;
+  user-select: none;
+}
+  
+#submit:hover{
+  color: white;
+  text-transform: uppercase;
+}
+ 
+.text-goregister{
+  margin-top: 20px;
       
-  }
-  .text-goregister a{
-      text-decoration: none;
-      color: purple;
-  }
+}
+.text-goregister a{
+  text-decoration: none;
+  color: purple;
+}
+
+  /** form register */
+
+.container-register{
+  display: flex;
+  height: 320px;
+  margin: 0 auto;
+  width: 640px;
+}
+.left-register {
+  background: deepskyblue;
+  height: calc(100% - 40px);
+  top: 20px;
+  position: relative;
+  width: 50%;
+}
+.register {
+  font-size: 50px;
+  font-weight: 900;
+  margin: 50px 40px 40px;
+}
+.eula-register {
+  color: white;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 40px;
+}
+.right-register {
+  background: rgb(26, 26, 26);
+  box-shadow: 0px 0px 40px 16px rgba(0,0,0,0.22);
+  color: white;
+  position: relative;
+  width: 50%;
+}
+.form-register {
+  margin: 40px;
+  position: absolute;
+}
+#submit-register {
+  position: relative;
+  color: #707075;
+  cursor: pointer;
+  user-select: none;
+}
+#submit-register:hover{
+  color: white;
+  text-transform: uppercase;
+}
+  
+
 
   /* user-profil */
 
- .main-user{
-   display: flex;
- }
- .container-aside{
-   width: 158px;
-   height: 100vh;
-   background-color: deepskyblue;
- }
- article{
-   background-color: white;
-   width: 100%;
-   height: 100%;
- }
+.main-user{
+  display: flex;
+}
+.container-aside{
+  width: 158px;
+  height: 100vh;
+  background-color: deepskyblue;
+}
+article{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
 
- section{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
- }
+section{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
- .container-I{
+.container-I{
   width: 300px;
   height: 250px;
   background-color: purple;
- }
+}
 
- .container-II{
+.container-II{
   width: 300px;
   height: 250px;
   background-color: purple;
- }
- .container-III{
-   background-color: black;
-   width: 600px;
-   height: 400px;
- }
- .containerIII-header{
-   background-color: deepskyblue;
-   width: 100%;
-   height: 100px;
- }
+}
+.container-III{
+  background-color: black;
+  width: 600px;
+  height: 400px;
+}
+.containerIII-header{
+  background-color: deepskyblue;
+  width: 100%;
+  height: 100px;
+}
  
   
  
